@@ -1,6 +1,10 @@
 package com.jpmc.midascore;
 
 import com.jpmc.midascore.foundation.Balance;
+import com.jpmc.midascore.kafka.KafkaProducer; // Assuming KafkaProducer is in this package
+import com.jpmc.midascore.user.UserPopulator; // Assuming UserPopulator is in this package
+import com.jpmc.midascore.file.FileLoader; // Assuming FileLoader is in this package
+import com.jpmc.midascore.query.BalanceQuerier; // Assuming BalanceQuerier is in this package
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
